@@ -1,0 +1,27 @@
+<ion-view view-title="Chercher">
+  <ion-content class="padding">
+    
+    <div class="list list-inset">
+      <form name="searchForm" ng-submit="search()">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Rechercher un titre sur Deezer" ng-model="form.q" ng-required="true">
+        </label>
+
+        <button type="submit" class="button button-full button-positive" ng-disabled="searchForm.$invalid">Rechercher</button>
+      </form>
+    </div>
+
+    <!-- Liste des résultats -->
+    <!-- Cachée quand aucun résultat -->
+
+    <div class="list" ng-show="results.length > 0">
+      <a class="item item-thumbnail-left" ng-href="#/tab/search/{{track.id}}" ng-repeat="track in results">
+        <img ng-src="{{track.album.cover}}" title="{{track.album.title}}">
+        <h2 ng-bind="track.title"></h2>
+        <p>{{track.artist.name}} / {{track.album.title}}</p>
+      </a>
+    </div>
+
+  </ion-content>
+</ion-view>

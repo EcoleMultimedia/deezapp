@@ -1,0 +1,24 @@
+<ion-view view-title="Voir un favori">
+  <ion-content class="padding">
+    
+    <div class="list card">
+      <div class="item item-avatar">
+        <img ng-src="{{track.artist.picture}}" title="{{track.artist.name}}">
+        <h2 ng-bind="track.title"></h2>
+        <p>{{track.artist.name}} / {{track.album.title}}</p>
+      </div>
+      <div class="item item-image">
+        <img ng-src="{{track.album.cover}}" title="{{track.album.title}}">
+      </div>
+      <a class="item item-icon-left assertive" href="#" ng-click="playMedia('{{track.preview}}')">
+        <i class="icon ion-volume-medium"></i>
+        Ecouter un extrait
+      </a>
+      <a class="item item-icon-left assertive" href="#" ng-click="removeFromFavorites(track)">
+        <i class="icon ion-heart"></i>
+        Retirer des favoris
+      </a>
+    </div>
+
+  </ion-content>
+</ion-view>

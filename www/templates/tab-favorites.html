@@ -1,0 +1,25 @@
+<ion-view view-title="Favoris">
+  <ion-content>
+ 
+    <ion-list ng-show="favorites.length > 0">
+      <ion-item class="item-thumbnail-left item-remove-animate" ng-href="#/tab/favorites/{{track.id}}" ng-repeat="track in favorites">
+        <img ng-src="{{track.album.cover}}" title="{{track.album.title}}">
+        <h2 ng-bind="track.title"></h2>
+        <p>{{track.artist.name}} / {{track.album.title}}</p>
+        <ion-option-button class="button-assertive" ng-click="removeFromFavorites(track)">
+          Retirer
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+ 
+    <!--
+      <ion-option-button> won't animate when removed
+      See this issue : https://github.com/driftyco/ionic/issues/1466
+    -->
+ 
+    <ul class="list" ng-show="favorites.length === 0">
+      <li class="item">Aucun favori</li>
+    </ul>
+ 
+  </ion-content>
+</ion-view>
