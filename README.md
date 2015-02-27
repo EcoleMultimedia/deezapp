@@ -1,9 +1,9 @@
 # DeezApp
 Application mobile construite avec le framework Ionic, dans le cadre d'un TD.
 
-<a href="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/search.png"><img src="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/search.png" alt="search" style="width: 200px;"></a>
-<a href="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/list.png"><img src="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/list.png" alt="list" style="width: 200px;"></a>
-<a href="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/detail.png"><img src="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/detail.png" alt="detail" style="width: 200px;"></a>
+<a href="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/search.png"><img src="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/search.png" alt="search" width="200"></a>
+<a href="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/list.png"><img src="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/list.png" alt="list" width="200"></a>
+<a href="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/detail.png"><img src="https://raw.githubusercontent.com/jmpp/deezapp/194a652b27d177f9eaaf3d204480244031a1bd0d/_docs/detail.png" alt="detail" width="200"></a>
 
 # Installation
 Vous aurez besoin de :
